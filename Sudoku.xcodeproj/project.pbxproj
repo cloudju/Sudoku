@@ -15,6 +15,7 @@
 		9B0084E923BB808800920804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0084E723BB808800920804 /* LaunchScreen.storyboard */; };
 		9B0084F423BB808800920804 /* SudokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0084F323BB808800920804 /* SudokuTests.swift */; };
 		9B0084FF23BB808800920804 /* SudokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0084FE23BB808800920804 /* SudokuUITests.swift */; };
+		9B00850D23BB842A00920804 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00850C23BB842A00920804 /* LaunchScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B0084FA23BB808800920804 /* SudokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0084FE23BB808800920804 /* SudokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuUITests.swift; sourceTree = "<group>"; };
 		9B00850023BB808800920804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B00850C23BB842A00920804 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				9B0084E223BB808700920804 /* Main.storyboard */,
 				9B0084E523BB808800920804 /* Assets.xcassets */,
 				9B0084E723BB808800920804 /* LaunchScreen.storyboard */,
+				9B00850C23BB842A00920804 /* LaunchScreenViewController.swift */,
 				9B0084EA23BB808800920804 /* Info.plist */,
 			);
 			path = Sudoku;
@@ -261,6 +264,7 @@
 			files = (
 				9B0084E123BB808700920804 /* ViewController.swift in Sources */,
 				9B0084DD23BB808700920804 /* AppDelegate.swift in Sources */,
+				9B00850D23BB842A00920804 /* LaunchScreenViewController.swift in Sources */,
 				9B0084DF23BB808700920804 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
