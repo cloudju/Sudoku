@@ -101,14 +101,9 @@
 		9B0084DB23BB808700920804 /* Sudoku */ = {
 			isa = PBXGroup;
 			children = (
-				9B0084DC23BB808700920804 /* AppDelegate.swift */,
-				9B0084DE23BB808700920804 /* SceneDelegate.swift */,
-				9B0084E023BB808700920804 /* ViewController.swift */,
-				9B0084E223BB808700920804 /* Main.storyboard */,
-				9B0084E523BB808800920804 /* Assets.xcassets */,
-				9B0084E723BB808800920804 /* LaunchScreen.storyboard */,
-				9B00850C23BB842A00920804 /* LaunchScreenViewController.swift */,
-				9B0084EA23BB808800920804 /* Info.plist */,
+				9B00851023BC282D00920804 /* glob */,
+				9B00851223BC287B00920804 /* views */,
+				9B00851123BC286F00920804 /* parts */,
 			);
 			path = Sudoku;
 			sourceTree = "<group>";
@@ -129,6 +124,51 @@
 				9B00850023BB808800920804 /* Info.plist */,
 			);
 			path = SudokuUITests;
+			sourceTree = "<group>";
+		};
+		9B00850E23BC27EB00920804 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				9B0084E723BB808800920804 /* LaunchScreen.storyboard */,
+				9B00850C23BB842A00920804 /* LaunchScreenViewController.swift */,
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
+		9B00850F23BC281500920804 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				9B0084E023BB808700920804 /* ViewController.swift */,
+				9B0084E223BB808700920804 /* Main.storyboard */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		9B00851023BC282D00920804 /* glob */ = {
+			isa = PBXGroup;
+			children = (
+				9B0084DC23BB808700920804 /* AppDelegate.swift */,
+				9B0084DE23BB808700920804 /* SceneDelegate.swift */,
+				9B0084E523BB808800920804 /* Assets.xcassets */,
+				9B0084EA23BB808800920804 /* Info.plist */,
+			);
+			path = glob;
+			sourceTree = "<group>";
+		};
+		9B00851123BC286F00920804 /* parts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = parts;
+			sourceTree = "<group>";
+		};
+		9B00851223BC287B00920804 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9B00850E23BC27EB00920804 /* launch */,
+				9B00850F23BC281500920804 /* main */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
